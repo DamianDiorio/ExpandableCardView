@@ -4,7 +4,9 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardUseCompatPadding="true"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    card_view:cardBackgroundColor="#8000000"
+    card_view:cardElevation="0dp">
 
     <RelativeLayout
         android:id="@+id/title_background"
